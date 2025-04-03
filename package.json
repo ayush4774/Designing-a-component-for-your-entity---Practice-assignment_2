@@ -1,8 +1,20 @@
 {
   "name": "vite-react-starter",
-  "private": true,
   "version": "0.0.0",
+  "private": true,
+  "description": "Assume you are developing an ecommers platfrom you need to display all of your products on home page.Now you need to prepare an product cart to display the details of the product.",
+  "homepage": "https://github.com/Vrajpatel4021/Designing_a_component-2#readme",
+  "bugs": {
+    "url": "https://github.com/Vrajpatel4021/Designing_a_component-2/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vrajpatel4021/Designing_a_component-2.git"
+  },
+  "license": "ISC",
+  "author": "",
   "type": "module",
+  "main": "eslint.config.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -18,11 +30,14 @@
     "@types/react": "^18.3.18",
     "@types/react-dom": "^18.3.5",
     "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
     "eslint": "^9.17.0",
     "eslint-plugin-react": "^7.37.3",
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.16",
     "globals": "^15.14.0",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.0.7",
     "vite": "^6.0.7"
   }
 }
